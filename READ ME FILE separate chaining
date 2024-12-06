@@ -1,0 +1,23 @@
+Andreas Sofronas
+Separate Chaining
+
+Review #1
+Separate chaining uses arrays and linked list which are linked to different locations of different values within a hash table. 
+It is very useful because collisions rarely occur within separate chaining and there is no size to the table and no load factor because you cannot fill it up ever. 
+My code uses separate chaining to search for words within a file and give the amount of words, the amount of collisions. 
+It also tells you the amount of time it should take to search for a word and the amount of probes that are used for that word. 
+  The code should run smoothly and give a clear output. 
+
+Review #2
+
+In my second week of working on my project I have been able to output the time taken to search and the number of probes used for 1,10,20,30,40, and 50 words that we as a group have chosen. 
+I have also made a chart with the position of each word and the number of times each of those positions has been hashed to. 
+I have tweaked my code to make it output everything I need for success. My graph was pretty consistent with the values, 
+the only thing I noticed was the when the positions got larger, the frequencies tended to be larger, while the positions were smaller, 
+the frequencies tend to be smaller or even zero.
+
+Review #3
+
+In this part I filled in the tables for the number of probes used and the amount of times a certain position is hashed to. For each of these I created graphs
+to show my data. After that I took time taken to search 10,20,30,40,and 50 words and made graphs for each of them to comaopre the times between each idea. After putting together
+my project report with everyones informnation in one document. 
